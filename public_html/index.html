@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Website</title>
+</head>
+<body>
+    <h1>Git Commands</h1>
+    <table>
+        <tr>
+          <th>Commands</th>
+          <th>Definition</th>
+        </tr>
+        <tr>
+          <td>git init</td>
+          <td>initialize an existing directory as a Git repository</td>
+        </tr>
+        <tr>
+          <td>git add [file]</td>
+          <td>add a file as it looks now to your next commit (stage) / . adds all files</td>
+        </tr>
+        <tr>
+          <td>git commit -m “[descriptive message]”</td>
+          <td>commit your staged content as a new commit snapshot</td>
+        </tr>
+        <tr>
+          <td>git checkout -b [branch-name]</td>
+          <td>creates a branch and goes to the branch</td>
+        </tr>
+        <tr>
+          <td>git checkout [branch-name]</td>
+          <td>goes to the specified branch</td>
+        </tr>
+        <tr>
+          <td>git branch</td>
+          <td>list your branches. a * will appear next to the currently active branch</td>
+        </tr>
+        <tr>
+            <td>git push origin [branch]</td>
+            <td>transmits local branch commit to the remote repository branch</td>
+          </tr>
+          <tr>
+            <td>git pull origin [branch]</td>
+            <td>fetch and merge any commits from tracking remote branch</td>
+          </tr>
+          <tr>
+            <td>git clone [URL]</td>
+            <td>retrieve and entire repository from a hosted location via [URL]</td>
+          </tr><tr>
+            <td>git merge [branch]</td>
+            <td>merge the specified branch's history into the current one</td>
+          </tr>
+      </table>
+      <h2>Terminal Commands</h2>
+      <table>
+        <tr>
+            <th>Commands</th>
+            <th>Definition</th>
+          </tr>
+          <tr>
+              <td>pwd</td>
+              <td>shows present working directory</td>
+          </tr>
+          <tr>
+            <td>ls</td>
+            <td>lists all files in the directory</td>
+        </tr>
+        <tr>
+            <td>cd [directory]</td>
+            <td>change to the specfied directory. [..] goes back a directory, each . is a directory</td>
+        </tr>
+        <tr>
+            <td>mkdir [directory]</td>
+            <td>create a new directory</td>
+        </tr>
+        <tr>
+            <td>mv [filename] [newfilename]</td>
+            <td>rename a file to a new file name</td>
+        </tr>
+        <tr>
+            <td>touch [filename]</td>
+            <td>create the specified files</td>
+        </tr>
+        <tr>
+            <td>vi</td>
+            <td>opens a visual editor in terminal and lets you edit the file</td>
+        </tr>
+      </table>
+      <h3>Docker Commands</h3>
+      <table>
+        <tr>
+            <th>Commands</th>
+            <th>Definition</th>
+          </tr>
+      <tr>
+          <td>Docker compose up</td>
+          <td>aggregates the output of each container</td>
+      </tr>
+      <tr>
+        <td>Docker compose down</td>
+        <td>stop all containers</td>
+    </tr>
+    <tr>
+        <td>Docker ps</td>
+        <td>lists the running containers</td>
+    </tr>
+    <tr>
+        <td>Docker kill [container-id]</td>
+        <td>shuts the specified container off</td>
+    </tr>
+    </table>
+</body>
+</html>
